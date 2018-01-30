@@ -221,9 +221,46 @@ footer a{
     }
 }
 
-
 /* mobile */
 @media screen and (max-width: 480px){
+
+    .burger-nav{
+        display:block;
+        height: 40px;
+        width: 100%;
+        background:url(images/burger-menu.png) no-repeat 98% center;
+        background-color: #404040;
+    }
+	
+	header .wrapper{
+		width: 100%;
+		padding: 0px;
+	}
+
+	header nav ul{
+	    overflow:hidden;
+	    background-color: #505050;
+	    height: 0px;
+	}
+
+	header nav ul.open{
+	    height: auto;
+	}
+
+	header nav ul li{
+	    float: none;
+	    text-align: left;
+	    width: 100%;
+	    margin: 0px;
+	}
+	
+	header nav ul li a{
+        color:#FFFFFF;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display:block;
+        margin:0px;
+	}
 
     #featured li{
         width: 90%;
